@@ -1,0 +1,85 @@
+.icon {
+    width:20px;
+    height:20px;
+    background-size: contain;
+    display:inline-block;
+    background-repeat:no-repeat;
+    image-rendering: -webkit-optimize-contrast; 
+}
+.icon.bedroom {
+  background-image: url('../../static/icons/bedroom.png');
+  transform:translate(0, 7px);
+}
+.icon.car {
+  transform:translate(0, 7px);
+  background-image: url('../../static/icons/car.png');
+}
+.icon.floors {
+  height: 13px;
+  transform:translate(0, 1px);
+  background-image: url('../../static/icons/floors.png');
+}
+.icon.jacuzzi {
+  background-image: url('../../static/icons/jacuzzi.png');
+  height: 15px;
+  transform: translate(0, 1px);
+}
+.icon.kitchen {
+  background-image: url('../../static/icons/kitchen.png');
+  height: 15px;
+  transform: translate(0, 1px);
+}
+.icon.shower {
+  background-image: url('../../static/icons/shower.png');
+  height: 15px;
+  transform: translate(0, 1px);
+}
+.icon.swimmingpool {
+  background-image: url('../../static/icons/swimmingpool.png');
+  transform:translate(0, 8px);
+}
+.icon.terrace {
+  background-image: url('../../static/icons/terrace.png');
+  transform:translate(0, 1px);
+  height: 15px;
+}
+
+.mail-solid.icon {
+  color: #FFF;
+  position: absolute;
+  border-radius: 1px;
+  border: solid 1px currentColor;
+  background-color: currentColor;
+  margin-left: -14px;
+  margin-top: 12px;
+  width: 18px;
+  height: 11px;
+}
+.mail-solid.icon:before {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: -4px;
+  width: 1px;
+  height: 10px;
+  color: #0005;
+  background-color: currentColor;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-transform: rotate(-54deg);
+          transform: rotate(-54deg);
+}
+.mail-solid.icon:after {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: -4px;
+  width: 1px;
+  height: 10px;
+  color: #0005;
+  background-color: currentColor;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-transform: rotate(54deg);
+          transform: rotate(54deg);
+      }
